@@ -19,7 +19,8 @@ public class ParamAndSessionServlet extends HttpServlet {
     private static final String PARAM_SUM_FROM_ALL_VISITS = "sessionParametersSum";
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws
+            ServletException, IOException {
         PrintWriter responseWriter = resp.getWriter();
         responseWriter.write("<html><body>");
         calculateParametersSum(req);
