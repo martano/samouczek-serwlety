@@ -1,19 +1,19 @@
-plugins {
-    id 'java'
-    id 'war'
-    id 'org.akhikhl.gretty' version '1.4.2'
-}
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'war'
+    apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
 
-group 'com.martaexercises'
-version '1.0-SNAPSHOT'
+    group 'com.martaexercises'
+    version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+    sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+    repositories {
+        mavenCentral()
+    }
 
-dependencies {
-    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    dependencies {
+        providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
 }

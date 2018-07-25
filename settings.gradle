@@ -1,2 +1,5 @@
 rootProject.name = 'samouczek-serwlety'
 
+include 'servlet'
+
+
