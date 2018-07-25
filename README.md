@@ -1,2 +1,2 @@
-My solution to a HTTP Servlet task from the course website "Samouczek Programisty"
-http://www.samouczekprogramisty.pl/naglowki-sesje-i-ciasteczka/
+My solutions to the Servlet tasks from the course 'Kurs aplikacji webowych' from the website "Samouczek Programisty"
+http://www.samouczekprogramisty.pl/kurs-aplikacji-webowych/
