@@ -3,4 +3,5 @@ rootProject.name = 'samouczek-serwlety'
 include 'servlet'
 include 'webfilter'
 include 'blockingwebfilter'
+include 'servletcontex'
 
